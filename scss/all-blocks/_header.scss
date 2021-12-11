@@ -35,8 +35,14 @@
           }
      }
 }
-// @media only screen and(max-width: 949px){
-//      .header{
-
-//      }
-// }
+@media only screen and(max-width: 949px){
+     
+.header{
+     .container{
+          width: 100%;
+          .navbar__card{
+               width: 100%;
+          }
+     }
+}
+}

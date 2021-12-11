@@ -113,3 +113,49 @@
      }
      
 }
+@media only screen and(max-width: 949px) {
+     .about__me{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          .about__me__easy {
+               width: 100%;
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+          }
+          .about__me__left{
+               width: 100%;
+               margin-left: 150px;
+          }
+          .about__me__left::before{
+               content:"";
+               display: block;
+               background-image: url(../../img/easy-me.png);
+               background-repeat: no-repeat;
+               background-size: contain;
+               position: relative;
+               width: 555px;
+               height: 304px;
+          }
+          .about__me__right{
+               width: 100%;
+               margin-left: 170px;
+               margin-bottom: 550px;
+          }
+     }
+     .about__section{
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          &__left{
+               width: 100%;
+               margin-bottom: 200px;
+          }
+          &__right{
+               width: 100%;
+               order: -1;
+          }
+     }
+}
