@@ -1,0 +1,25 @@
+.btn-danger{
+     background-color: #BA4270;
+     width: 173px;
+     height: 48px;
+     background: #BA4270;
+     box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+     border-radius: 24px; 
+     border: none;     
+}
+.btn-danger:hover{
+     background-color: #DA6D97;
+}
+.btn-danger:active{
+     background: #f08ab1;
+}
+.btn__text{
+     font-family: 'Public Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 18px;
+     letter-spacing: -0.115385px;
+     text-decoration: navajowhite;
+     color: #FBFCFE;
+}

@@ -1,0 +1,147 @@
+.main{
+     .hero{
+          display: flex;
+          padding-top: 130px;
+          overflow: hidden;
+          padding-left: 180px;
+          .hero__left{
+               width: 50%;
+               &__text{
+                    font-family: "DM Serif Display";
+                    font-style: normal;
+                    width: 546px;
+                    height: 243px;
+                    font-weight: normal;
+                    font-size: 70px;
+                    line-height: 80px;
+                    letter-spacing: -0.553846px;
+                    color: #36536B;
+               }
+               .hero__email{
+                    width: 400px;
+                    height: 48px;
+                    background: #FBFCFE;
+                    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+                    border-radius: 24px;
+                    display: flex;
+                    justify-content: space-between;
+                    .hero__link{
+                         border: none;
+                         margin-left: 10px;
+                         height: 48px;
+                         border-radius: 24px;
+                         outline: none;
+                         border-radius: 2px solid #FBFCFE;
+                         font-family: "Public Sans";
+                         line-height: 18px;
+                         opacity: 0.7;
+                    }
+                    .hero__link:hover{
+                         color: black;
+                    }
+               }
+               .hero__email__text a{
+                    width: 255px;
+                    text-decoration: none;
+                    margin-top: 20px;
+                    margin-left: 14px;
+                    height: 18px;
+                    font-family: "Public Sans";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    color: #6C8294;
+               }
+               .hero__email__span a{
+                    text-decoration: none;
+                    width: 255px;
+                    margin-top: 20px;
+                    margin-left: 10px;
+                    height: 18px;
+                    font-family: "Public Sans";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 17px;
+                    line-height: 18px;
+                    color: #6C8294;
+               }
+          }
+          .hero__right{
+               width: 50%;
+          }
+          .hero__right::before{
+               content:"";
+               display: block;
+               background-image: url(../../img/phone3.png);
+               background-size: contain;
+               background-repeat: no-repeat;
+               position: relative;
+               left: 120px;
+               bottom: 100px;
+               width: 403px;
+               height: 565px;
+          }
+               .hero__right::after{
+          content:"";
+          display: block;
+          background-image: url(../../img/circle.png);
+          z-index: -1;
+          position: absolute;
+          margin-top: -700px;
+          overflow: hidden;
+          width: 200px;
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: relative;
+          bottom: 250px;
+          width: 700px;
+          height: 700px;
+     }
+     
+          
+          
+     }
+}
+@media only screen and (max-width: 949px){
+     .main{
+          .hero{
+               &__left{
+                    width: 100%;
+                    text-align: center;
+                    &__text{
+                         text-align: center;
+                         display: inline-block;
+                         width: 573px;
+                         height: 122px;
+                         font-family: "DM Serif Display";
+                         font-style: normal;
+                         font-weight: normal;
+                         font-size: 48px;
+                         line-height: 56px;
+                         text-align: center;
+                         letter-spacing: -0.369231px;
+                         color: #36536B;
+                    }
+               }
+               
+          }
+          .hero__right{
+               width: 100%;
+          }
+          .hero__right::before{
+               content:"";
+               display: block;
+               background-image: url(../../img/phone3.png);
+               background-size: contain;
+               background-repeat: no-repeat;
+               position: relative;
+               left: 150px;
+               bottom: 100px;
+               width: 233px;
+               height: 465px;
+          }
+
+     }
+     
+}
